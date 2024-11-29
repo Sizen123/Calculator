@@ -1,0 +1,28 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-red {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+button{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}

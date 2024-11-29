@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.button {
+    width: 77px;
+    margin: 0 3px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 310px;
+    margin: 0;
+    padding: 8px 0px;
+    border: 3px solid grey;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.container{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px 0px;;
+  font-size: 30px;
+  text-align: center;
+}
